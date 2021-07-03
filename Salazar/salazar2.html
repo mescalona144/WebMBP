@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <link rel="stylesheet" href="salazarana.css">
+</head>
+<body>
+    <div class="content-cabecera">
+        <div class="content-logo">
+            <img src="../Salazar/img/LogoAna.jpeg"alt="">
+
+        </div>
+        <h1>Ana Social Make Up</h1>
+        <p>Buscamos que cada persona logre proyectar su interior a través del maquillaje.</p>
+    </div>
+<main>
+    <div class="content1">
+        <div class="content1-img">
+            <h1>Bienvenidas</h1>
+        </div>
+        <div class="text-content1">
+            <p>A continuación, se te presentará una serie de campos que deberás llenar en su totalidad</p>
+            <hr>
+        </div>
+    </div>
+<main role="main">
+    <div class="contet2">
+            <h2 id="Formulario">Formulario de inscripción
+
+            </h2>
+        
+        <form action="enviar.php" method="post">
+            <br>
+            <label for="nombres">Nombres:</label>
+            <br>
+            <br>
+            <input type="text" name="nombres" placeholder="Ej.Mary Angélica" required>
+            <br>
+            <br>
+
+            <label for="apellidos">Apellidos:</label>
+            <br>
+            <br>
+            <input type="text" name="apellidos" placeholder="Ej. López" required>
+            <br>
+            <br>
+
+            <label for="documento">Documento</label>
+            <br>
+            <br>
+
+            <input type="text" name="numero" placeholder="Ej. DNI">
+            <br>
+            <br>
+
+            <label for="text">Teléfono:</label>
+            <br>
+            <br>
+            <input type="tel" name="telefono" placeholder="Ej.(+54)115405932" required>
+            <br>
+            <br>
+
+            <label for="text">País de residencia</label>
+            <br>
+            <br>
+            <input type="text" name="pais" placeholder="Ej.Argentina">
+            <br>
+            <br>
+
+            <label for="text">Correo electrónico</label>
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="Ej. dominio@gmail.com" required>
+            <br><br>
+    
+    
+        <p>Expectativas sobre el curso:</p>
+        <br>
+        <br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deje su mensaje aquí"></textarea>
+      
+       
+        <br>
+        <br>
+        
+        <input type="submit" value="ENVIAR" id="btn" style="justify-content: center; font-size: 18px; font-weight: 60px;">
+    
+
+  </form>
+</div>
+    </main>
+    <footer>
+        &copy; 2021 Ana Salazar Makeup - Todos los derechos reservados.
+    </footer>
+    
+</body>
+</html>

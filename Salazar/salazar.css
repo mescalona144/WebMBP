@@ -1,0 +1,391 @@
+/*Estilos de la homepage*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+    padding: 20px;
+}
+.content-cabecera{
+    margin-top: 100px;
+    width: 100;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+.content-logo{
+    width: 100%;
+    height: 100%;
+}
+.content-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid rgba(235, 187, 55, 0.801);
+    margin-top: auto;
+}
+.content-cabecera h1{
+    font-weight: 100px;
+    color: white;
+    margin-top: 20px;
+}
+.content-cabecera p{
+    color: white;
+    margin-top: 20px;
+}
+main{
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+/*Aca empieza el contenedor del curso*/
+
+.content1{
+    width: 100%;
+   
+}
+
+.content1-img{
+    width: 100%;
+    text-align: center;
+ 
+}
+.content1-img img{
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+   
+}
+.text-content1{
+    width: 100%;
+    text-align: center;
+    
+}
+.text-content1 h1{
+    font-weight: 100%;
+    text-align: center; 
+    margin-top: 100px; 
+   
+}
+
+.text-content1 hr{
+    width: 100px;
+    height: 4px;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    margin: auto;
+    margin-top: 10px;
+   
+}
+.text-content1 p{
+    margin-top: 40px;
+    color: #663786;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.buttom-Leer{
+    width: 200px;
+    padding: 16px;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover
+{
+font-weight: bold;
+}
+
+/*aqui comienza el segundo contenedor*/
+.content2{
+    width: 100%;
+    text-align: center;
+     
+}
+.content2 h1{
+    font-weight: 100%;
+    text-align: center; 
+    margin-top: 100px;  
+}
+.content2 hr{
+    width: 100px;
+    height: 4px;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.item-details{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+.icon-details{
+    width: 100px;
+    height:100px;
+    border: 1px solid rgba(235, 187, 55, 0.801);
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.icon-details img{
+    font-size: 40px;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    border-radius: 100px;
+    padding: 8px;
+    
+}
+.content-details h4{
+    font-weight: 100px;
+    font-size: 16px;
+    padding: 60px;
+}
+.content-details p{
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/*Acá comienza el tercer contenedor*/
+.content3{
+    width: 100%;
+    text-align: center;
+}
+
+.content3 h1{
+    font-weight: 100%;
+    text-align: center; 
+    margin-top: 100px;  
+}
+.content3 hr{
+    width: 100px;
+    height: 4px;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    margin: auto;
+    margin-top: 10px;
+}
+.content3 p{
+    margin-top: 60px;
+    letter-spacing: 1px;
+    color: black;
+    padding-block-end: 20px;
+
+}
+
+.content-redes {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-block-end: 20px;
+
+}
+
+.item-estadisticas{
+    width: 100%;
+    margin: auto;
+
+}
+
+.item-estadisticas img{
+    color: white;
+    font-size: 80px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.item-estadisticas h4{
+    font-weight: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.item-estadisticas1{
+    padding-top: 20px;
+    margin: auto;
+    background-color: white;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    border-radius: 20px;
+}
+
+.item1{
+    background-color: #c79cc8;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.item2{
+    background-color: #a89cc8;
+
+}
+.item3{
+    background-color: #9882e9;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.item-estadisticas p{
+    color: black;
+    margin-top: 0px;
+    padding-block-end: 20px;
+}
+.content4{
+    width: 100%;
+    height: 100px;
+}
+.content4 p{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/*Acá están los estilos del segundo HTML*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+    padding: 20px;
+}
+.main10{
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+.content10{
+    width: 100%
+    
+
+}
+.content10-img{
+    width: 100%;
+    padding-top: auto;
+    text-align: center;
+   
+}
+.content10-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.text-content10{
+    width: 100%;
+    text-align: center;
+}
+.text-content10 h1{
+    margin-top: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+.content10 hr{
+    width: 100px;
+    height: 4px;
+    border: 3px solid rgba(235, 187, 55, 0.801);
+    margin: auto;
+    margin-top: 10px;
+}
+.text-content10 h4{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.buttom-Leer10, .buttom-Leer11, .buttom-Leer12
+{
+        background-color: rgba(248, 159, 229, 0.514);
+        width: 220px;
+        padding: 10px;
+        border: 3px solid rgba(235, 187, 55, 0.801);
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 40px;
+        cursor: pointer;
+        text-align: center;
+        justify-content:flex-start;
+    
+}
+
+/*Comienza al Responsive Design*/
+@media screen and (min-width: 800px)
+{
+    .content1, .content10
+    {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .content1-img, .content10-img
+    {
+        float: right;
+        width: 500px;
+        height: 500px;
+    }
+
+    .buttom-Leer, .buttom-Leer10{
+        float: left;}
+
+    .buttom-Leer11
+        { float: right;}
+
+    .content-details{
+        display: flex;
+    }
+
+    .content-estadisticas{
+        display: flex;
+    }
+
+    .content-redes{
+        display: flex;
+    }
+
+    .item1{
+        background-color: #c79cc8;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .item2{
+            background-color: #a89cc8;
+            border-radius: 0px 0px 0px 0px;
+    }
+    .item3{
+        background-color: #9882e9;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .content4{
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+
+}
